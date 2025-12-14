@@ -21,4 +21,7 @@
 ```shell
 uv init shell-server
 cd mcp-server
+uv venv
+source .venv/Scripts/activate
+uv add "mcp[cli]"
 ```
