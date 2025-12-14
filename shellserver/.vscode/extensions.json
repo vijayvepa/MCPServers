@@ -1,0 +1,15 @@
+{
+  // Extensions that are recommended but will be disabled by default
+  // Add extension IDs here to explicitly disable them
+  "recommendations": [],
+  
+  // Extensions that should be disabled/uninstalled
+  // Add extension IDs here that you want to ensure are disabled
+  "unwantedRecommendations": []
+}
+
+
+
+
+
+

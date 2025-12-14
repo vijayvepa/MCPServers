@@ -1,0 +1,30 @@
+{
+	// Extension-specific disable settings
+	// Note: Most extensions don't support enable/disable via settings.json.
+	// For extensions without settings below, disable them via Extensions view (Ctrl+Shift+X)
+	// or use the extensions.json file with unwantedRecommendations
+	// ESLint
+	"eslint.enable": false,
+	// Prettier
+	"prettier.enable": false,
+	// Python - disable language server and analysis
+	"python.analysis.disabled": true,
+	// Tailwind CSS - disable validation
+	"tailwindCSS.validate": false,
+	"tailwindCSS.experimental.classRegex": [],
+	// IntelliCode - disable suggestions
+	"vsintellicode.modify.editor.suggestSelection": "disabled",
+	// C/C++ - disable IntelliSense
+	"C_Cpp.intelliSenseEngine": "disabled",
+	// Spell Checker
+	"cSpell.enabled": false,
+	// Vim - disable vim extension
+	"vim.enabled": false,
+	// Rust Analyzer
+	"rust-analyzer.enable": false,
+	// Docker - disable docker extension features
+	"docker.enabled": false,
+	"extensions.ignoreRecommendations": true,
+	"extensions.autoCheckUpdates": false,
+	"extensions.autoUpdate": false
+}
