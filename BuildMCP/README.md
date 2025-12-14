@@ -45,3 +45,42 @@ I want you to implement me a simple MCP server from @MCP Docs  Use python SDK @M
 ```
 
 ![img_1.png](img_1.png)
+
+## Run MCP Server
+
+```shell
+uv run server.py
+```
+
+## Add to Claude
+
+"C:\Users\vijay\AppData\Roaming\Claude\claude_desktop_config.json"
+
+```json
+{
+	"mcpServers": {
+		"shell-server": {
+			"command": "C:\\Users\\vijay\\AppData\\Roaming\\Python\\Python313\\Scripts\\uv",
+			"args": [
+				"--directory",
+				"I:\\Code\\Udemy\\MCPServers\\shellserver",
+				"run",
+				"server.py"
+			]
+		}
+	}
+}
+```
+
+![img_3.png](img_3.png)
+
+![img_2.png](img_2.png)
+
+## Test in Claude
+
+```prompt
+Show me all the files in my desktop folder
+```
+![img_4.png](img_4.png)
+
+![img_5.png](img_5.png)
