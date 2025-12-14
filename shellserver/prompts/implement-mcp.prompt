@@ -1,0 +1,1 @@
+I want you to implement me a simple MCP server from @MCP Docs  Use python SDK @MCP Python SDK  and the server should expose one tool which is called terminal tool which will allow user to run terminal commands, make it simple.
