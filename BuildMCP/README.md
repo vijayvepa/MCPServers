@@ -98,3 +98,65 @@ Expose @README.md as a resource in my MCP Server using @MCP Docs and @MCP Python
 ![img_6.png](img_6.png)
 
 ![img_8.png](img_8.png)
+
+## Deploy to Docker
+
+### Resources
+- [uv Docker Integration](https://docs.astral.sh/uv/guides/integration/docker/)
+
+```prompt
+Write a dockerfile to run this app in a container. I am using uv package manager, refer to @UVDockerIntegration . On local I run it as uv run server.py
+```
+
+### Integrate with Claude
+
+![img_9.png](img_9.png)
+
+### Troubleshooting Logs
+
+[Logs](C:\Users\vijay\AppData\Roaming\Claude\logs)
+
+![img_10.png](img_10.png)
+
+```json
+{
+	"mcpServers": {
+		"shell-server": {
+			"command": "C:\\Users\\vijay\\AppData\\Roaming\\Python\\Python313\\Scripts\\uv",
+			"args": [
+				"--directory",
+				"I:\\Code\\Udemy\\MCPServers\\shellserver",
+				"run",
+				"server.py"
+			]
+		},
+		"docker-shell-server": {
+			"command": "docker",
+			"args": [
+				 "run","--rm","-i", "--init", "-e", "DOCKER_CONTAINER=true", "mcp-shellserver:latest"
+			]
+		}
+	}
+}
+
+
+
+
+```
+
+![img_11.png](img_11.png)
+
+![img_12.png](img_12.png)
+
+### Docker Logs
+![img_13.png](img_13.png)
+
+### Testing on Claude
+
+```md
+write "Hello MCP" in ASCII art then echo it via terminal
+```
+
+![img_14.png](img_14.png)
+
+![img_15.png](img_15.png)
