@@ -1,11 +1,31 @@
 """Simple MCP server with terminal tool."""
 import subprocess
+from pathlib import Path
 from typing import Any
 
 from mcp.server.fastmcp import FastMCP
 
 # Initialize the MCP server
 mcp = FastMCP("Terminal Server")
+
+
+@mcp.resource("file://readme")
+def readme_resource() -> str:
+    """
+    Provides the contents of the README.md file.
+    
+    Returns:
+        The contents of README.md as a string
+    """
+    readme_path = Path(__file__).parent / "README.md"
+    
+    if not readme_path.exists():
+        return "README.md file not found"
+    
+    try:
+        return readme_path.read_text(encoding="utf-8")
+    except Exception as e:
+        return f"Error reading README.md: {str(e)}"
 
 
 @mcp.tool()

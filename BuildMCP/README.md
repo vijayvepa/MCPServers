@@ -4,7 +4,7 @@
 ## Resources
 - [Github Repo](https://github.com/emarco177/mcp-crash-course)
 - [Install UV](https://docs.astral.sh/uv/getting-started/installation/#pypi)
-  - pip installl in git bash
+  - pip install in git bash
      ```shell
         pip install uv
     ```
@@ -84,3 +84,17 @@ Show me all the files in my desktop folder
 ![img_4.png](img_4.png)
 
 ![img_5.png](img_5.png)
+
+## Expose a Resource in MCP Server
+
+```prompt
+Expose @README.md as a resource in my MCP Server using @MCP Docs and @MCP Python SDK 
+```
+
+![img_7.png](img_7.png)
+
+### Testing 
+
+![img_6.png](img_6.png)
+
+![img_8.png](img_8.png)
