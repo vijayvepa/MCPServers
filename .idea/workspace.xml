@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="expose a resource">
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildMCP/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlaywrightMCP/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlaywrightMCP/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildMCP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BuildMCP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
