@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="uv install">
-      <change afterPath="$PROJECT_DIR$/SSEServer/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/main.py" afterDir="false" />
+    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Setup env vars">
+      <change afterPath="$PROJECT_DIR$/SSEServer/servers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSEServer/servers/math_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766255014443</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Setup env vars">
+      <option name="closed" value="true" />
+      <created>1766256109447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766256109447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +217,8 @@
     <MESSAGE value="expose a resource" />
     <MESSAGE value="playwright mcp" />
     <MESSAGE value="uv install" />
-    <option name="LAST_COMMIT_MESSAGE" value="uv install" />
+    <MESSAGE value="Setup env vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup env vars" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
