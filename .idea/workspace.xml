@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Add weather SSE Server">
-      <change afterPath="$PROJECT_DIR$/SSEServer/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Add SSE Client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSEServer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSEServer/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSEServer/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSEServer/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766256605763</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add SSE Client">
+      <option name="closed" value="true" />
+      <created>1766325872066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766325872066</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +247,8 @@
     <MESSAGE value="Setup env vars" />
     <MESSAGE value="Add math server" />
     <MESSAGE value="Add weather SSE Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add weather SSE Server" />
+    <MESSAGE value="Add SSE Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SSE Client" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
