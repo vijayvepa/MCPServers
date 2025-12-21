@@ -313,3 +313,9 @@ response_metadata=
   }
 }
 ```
+
+## LangSmith Tracing
+
+- [LangSmith Dashboard](https://smith.langchain.com/o/6c9e0636-4300-4b1b-81b3-41d2e936028f/projects/p/dfc2f611-4936-4245-b83a-66dbb97e3eff?timeModel=%7B%22duration%22%3A%227d%22%7D&peek=019b4170-f90f-72c0-8167-563b7f500689&peeked_trace=019b4170-f90f-72c0-8167-563b7f500689)
+
+![img_1.png](img_1.png)

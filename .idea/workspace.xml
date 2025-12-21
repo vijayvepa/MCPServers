@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Add SSE Client">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSEServer/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SSEServer/uv.lock" afterDir="false" />
-    </list>
+    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Add SSE Client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766325872066</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add SSE Client">
+      <option name="closed" value="true" />
+      <created>1766329498794</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766329498794</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +251,17 @@
     <MESSAGE value="Add weather SSE Server" />
     <MESSAGE value="Add SSE Client" />
     <option name="LAST_COMMIT_MESSAGE" value="Add SSE Client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SSEServer/client.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
