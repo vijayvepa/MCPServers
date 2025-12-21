@@ -13,9 +13,10 @@ print_env("LANGCHAIN_TRACING_V2")  # Print the value of OPENAI_API_KEY
 print_env("LANGCHAIN_ENDPOINT")  # Print the value of OPENAI_API_KEY
 print_env("LANGCHAIN_PROJECT")  # Print the value of OPENAI_API_KEY
 
-
+import client
 async def main():
     print("Hello from sseserver!")
+    await client.client()
 
 
 if __name__ == "__main__":
