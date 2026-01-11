@@ -61,4 +61,24 @@ AUTH0_AUDIENCE=urn:todos-api
 
 - Run the app. It should show "Unauthorized"
 
+### Test the App
+- Go to APIs
+- TODOs API, Copy the CURL
 
+![img_5.png](img_5.png)
+
+
+- Run [CheckMe.sh](todos-api/test/CheckMe.sh)
+
+```json
+{
+  "iss": "https://<YOUR>.us.auth0.com/",
+  "sub": "<YOUR_SUB>",
+  "aud": "urn:todos-api",
+  "iat": 1768171433,
+  "exp": 1768257833,
+  "gty": "client-credentials",
+  "azp": "<YOUR_AZP>"
+}
+
+```

@@ -1,0 +1,6 @@
+echo "{"
+echo "        \"client_id\":\"$AUTH0_CLIENT_ID\", "
+echo "        \"client_secret\":\"$AUTH0_CLIENT_SECRET\", "
+echo "        \"audience\":\"urn:todos-api\", "
+echo "        \"grant_type\":\"client_credentials\" "
+echo "}"
