@@ -45,4 +45,20 @@ Add below API permissions
 - `read:todos`
 -  `read:billing`
 
+### Configure the App
+
+- Add `.dev.vars`
+```dotenv
+AUTH0_DOMAIN=yourtenant.us.auth0.com
+AUTH0_AUDIENCE=urn:todos-api
+```
+
+- Go to Applications, Todos API
+
+![img_4.png](img_4.png)
+
+- Copy the domain and update AUTH0_DOMAIN
+
+- Run the app. It should show "Unauthorized"
+
 
