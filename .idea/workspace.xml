@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="Add SSE Client" />
+    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="langsmith tracing">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/middlewares/jwt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/types/hono.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/utils/http-exception.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/worker-configuration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/wrangler.jsonc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +62,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "I:/Code/Udemy/MCPServers",
@@ -211,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766329498794</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="langsmith tracing">
+      <option name="closed" value="true" />
+      <created>1766329706209</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766329706209</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +273,8 @@
     <MESSAGE value="Add math server" />
     <MESSAGE value="Add weather SSE Server" />
     <MESSAGE value="Add SSE Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SSE Client" />
+    <MESSAGE value="langsmith tracing" />
+    <option name="LAST_COMMIT_MESSAGE" value="langsmith tracing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
