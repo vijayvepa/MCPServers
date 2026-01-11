@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="langsmith tracing">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/middlewares/jwt.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/types/hono.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/src/utils/http-exception.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/worker-configuration.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/todos-api/wrangler.jsonc" afterDir="false" />
+    <list default="true" id="b2350464-801b-4e7f-ab56-80690679d91a" name="Changes" comment="cloud auth MCP">
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudAuthMCP/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloudAuthMCP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CloudAuthMCP/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +61,8 @@
     "last_opened_file_path": "I:/Code/Udemy/MCPServers",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -234,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766329706209</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="cloud auth MCP">
+      <option name="closed" value="true" />
+      <created>1768168482217</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1768168482217</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +276,8 @@
     <MESSAGE value="Add weather SSE Server" />
     <MESSAGE value="Add SSE Client" />
     <MESSAGE value="langsmith tracing" />
-    <option name="LAST_COMMIT_MESSAGE" value="langsmith tracing" />
+    <MESSAGE value="cloud auth MCP" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud auth MCP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
