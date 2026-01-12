@@ -4,5 +4,6 @@ TOKEN=$(curl --request POST \
   --data @TokenRequest.json | jq -r .access_token)
 
 curl --request GET \
-  --url http://127.0.0.1:8789/api/me \
-  --header "authorization: BeCheckMe.sharer $TOKEN" | jq
+  --url https://todos-api.vijay-k-vepakomma.workers.dev/api/me \
+  --verbose \
+  --header "authorization: Bearer $TOKEN" | jq

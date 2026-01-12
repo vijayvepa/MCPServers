@@ -82,3 +82,41 @@ AUTH0_AUDIENCE=urn:todos-api
 }
 
 ```
+
+## Deploy to Cloudflare
+
+### Add Secrets
+
+```shell
+cd todos-api
+npm install -g wrangler
+wrangler
+wrangler login
+
+wrangler secret put AUTH0_DOMAIN
+wrangler secret put AUTH0_AUDIENCE
+
+```
+
+- Secrets are shown in settings page of Cloudflare worker
+
+https://dash.cloudflare.com/2be5671972fbf4962d888d7b179b2c28/workers/services/view/todos-api/production/settings
+
+![img_6.png](img_6.png)
+
+
+### Deploy App 
+
+```shell
+wrangler
+```
+
+https://dash.cloudflare.com/2be5671972fbf4962d888d7b179b2c28/workers/services/view/todos-api/production
+
+![img_7.png](img_7.png)
+
+
+### Test Deployed App
+
+
+- Run [DeployedCheckMe.sh](todos-api/test/DeployedCheckMe.sh)
